@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: aquamarine;
+        }
+
+        header {
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 0px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.481);
+        }
+
+        article {
+             background-color: lightslategray;
+             padding: 5px;
+        }
+
+        nav {
+            background-color: limegreen;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: brown;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        footer {
+            background-color: lightcoral;
+            color: darkblue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o mundo atual</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore esse expedita fugit recusandae tenetur eius officiis eaque sequi. Non mollitia odit, itaque reprehenderit saepe numquam. Ullam reprehenderit eveniet laboriosam.</p>
+                <aside>
+                    <p>Artigo escrito por Jucicleia</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>

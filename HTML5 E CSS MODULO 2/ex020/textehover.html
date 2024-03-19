@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bricando com Hover</title>
+    <style>
+        body {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: #187795;
+            background-color: #cdc6ae;
+        }
+
+        div:hover {
+            color: #a3b4a2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bricando com o hover</h1>
+    <p>Tente achar onde está escondido o texto</p>
+    <div>Onde ele está?
+        <p>Você me achou!</p>
+    </div>
+</body>
+</html>

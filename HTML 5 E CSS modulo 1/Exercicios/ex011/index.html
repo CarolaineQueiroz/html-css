@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagen dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexísivel">
+
+        
+
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/garoto-do-bolinho.mp3" type="audio/mpeg">
+        <source src="midia/garoto-do-bolinho.ogg" type="audio/ogg">
+        <source src="midia/garoto-do-bolinho.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador nao consegue reproduzir audio. <a href="midia/garoto-do-bolinho.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
